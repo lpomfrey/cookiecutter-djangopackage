@@ -77,7 +77,7 @@ Now you can make your changes locally.
 5. When you're done making changes, check that your changes pass flake8 and the
 tests, including testing other Python versions with tox::
 
-    $ flake8 {{ cookiecutter.app_name }} tests
+    $ flake8 {{ cookiecutter.app_name }}
 	$ python setup.py test
     $ tox
 
@@ -109,4 +109,5 @@ Tips
 
 To run a subset of tests::
 
-	$ python -m unittest tests.test_{{ cookiecutter.app_name }}
+	$ python manage.py test {{ cookiecutter.app_name }}.TestCase
+    $ python manage.py test {{ cookiecutter.app_name }}.TestCase.test_name
