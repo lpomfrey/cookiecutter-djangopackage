@@ -8,8 +8,8 @@
 .. image:: https://travis-ci.org/{{ cookiecutter.github_username }}/{{ cookiecutter.repo_name }}.png?branch=master
         :target: https://travis-ci.org/{{ cookiecutter.github_username }}/{{ cookiecutter.repo_name }}
 
-.. image:: https://coveralls.io/repos/lpomfrey/django-debreach/badge.png?branch=master
-    :target: https://coveralls.io/r/lpomfrey/django-debreach?branch=master
+.. image:: https://coveralls.io/repos/lpomfrey/{{ cookiecutter.repo_name }}/badge.png?branch=master
+    :target: https://coveralls.io/r/lpomfrey/{{ cookiecutter.repo_name }}?branch=master
 
 .. image:: https://pypip.in/d/{{ cookiecutter.repo_name }}/badge.png
         :target: https://crate.io/packages/{{ cookiecutter.repo_name }}?version=latest
